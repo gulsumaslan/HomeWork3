@@ -35,7 +35,7 @@ namespace HomeWork3
             need.Names = "AYşe";
             need.CrediLimit = 0.6;
             Console.WriteLine("Adı :"+need.Names);
-            Console.WriteLine("Kredi Limiti:"+need.CrediLimit);
+            Console.WriteLine("Credi Limit:"+need.CrediLimit);
 
 
 
@@ -84,14 +84,14 @@ namespace HomeWork3
         public string LastName { get; set; }
         public double CrediLimit { get; set; }
 
-        public void Departman()
+        public void Department()
         {
-            Console.WriteLine("Müdür departmanı");
+            Console.WriteLine("Manager department");
         }
 
         public override void InterestRate()
         {
-            Console.WriteLine("müdür için faiz oranı");
+            Console.WriteLine("interest rate for manager");
         }
     }
     public class Customer : Credit
@@ -102,7 +102,7 @@ namespace HomeWork3
 
         public override void InterestRate()
         {
-            Console.WriteLine("Müşteriye ait faiz oranı");
+            Console.WriteLine("Customer interest rate");
         }
 
       
@@ -129,7 +129,7 @@ namespace HomeWork3
 
         public override void InterestRate()
         {
-            Console.WriteLine("ihtiyaç kredi faiz oranı");
+            Console.WriteLine("consumer loan interest rate");
         }
     }
 
@@ -142,7 +142,7 @@ namespace HomeWork3
 
         public override void InterestRate()
         {
-            Console.WriteLine("konut kredi faiz oranı");
+            Console.WriteLine("home loan interest rate");
         }
 
         public class Vehicle : Credit
@@ -152,7 +152,7 @@ namespace HomeWork3
 
             public override void InterestRate()
             {
-                Console.WriteLine("taşıt kredi faiz oranı");
+                Console.WriteLine("car loan interest rate");
             }
         }
 
@@ -161,7 +161,7 @@ namespace HomeWork3
         {
             static void manage()
             {
-                Console.WriteLine("yönetmek");
+                Console.WriteLine("to manage");
 
 
             }
@@ -170,7 +170,7 @@ namespace HomeWork3
             {
                 static void inspect()
                 {
-                    Console.WriteLine("denetlemek");
+                    Console.WriteLine("inspect");
                 }
             }
 
