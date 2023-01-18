@@ -27,14 +27,14 @@ namespace HomeWork3
 
 
             //Manager manager = new Manager();
-            //manager.Departman();
+            //manager.Department();
 
 
 
             Need need = new Need();
             need.Names = "AYşe";
             need.CrediLimit = 0.6;
-            Console.WriteLine("Adı :"+need.Names);
+            Console.WriteLine("Name :"+need.Names);
             Console.WriteLine("Credi Limit:"+need.CrediLimit);
 
 
@@ -71,7 +71,7 @@ namespace HomeWork3
         public string Name { get; set; }
         public string LastName { get; set; }
 
-        public void Departman();
+        public void Department();
 
 
     }
